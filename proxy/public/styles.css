@@ -1,0 +1,16 @@
+#app {
+  margin-left: 500px;
+}
+
+#people-also-viewed {
+  margin: auto;
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+}
+
+ #Homepage {
+  position: absolute;
+  top: 900px;
+  right: 200px;
+}
