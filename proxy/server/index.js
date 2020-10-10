@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname + '/../public')));
 
 app.get('/api/reviews/:id', (req, res) => {
 
-  axios.get(`http://localhost:5555/api/reviews/${req.params.id}`, { params: { text: req.query.text } })
+  axios.get(`http://13.52.246.213/api/reviews/${req.params.id}`, { params: { text: req.query.text } })
     .then((response) => {
       res.status(200).send(response.data);
     })
@@ -24,7 +24,7 @@ app.get('/api/reviews/:id', (req, res) => {
 
 app.get('/photos/:id', (req, res) => {
 
-  axios.get(`http://localhost:3001/photos/${req.params.id}`)
+  axios.get(`http://18.216.243.227/photos/${req.params.id}`)
     .then((response) => {
       res.status(200).send(response.data);
     })
@@ -37,7 +37,7 @@ app.get('/photos/:id', (req, res) => {
 
 app.get('/getRestaurants', (req, res) => {
 
-  axios.get(`http://localhost:3000/getRestaurants`)
+  axios.get(`http://34.212.131.243/getRestaurants`)
     .then((response) => {
       res.status(200).send(response.data);
     })
