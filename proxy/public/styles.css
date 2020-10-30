@@ -1,4 +1,4 @@
-#reviews {
+/* #reviews {
   margin-left: 305px;
   margin-top: -5px;
   z-index: 0;
@@ -10,10 +10,10 @@
   margin-left: 150px;
   margin-right: auto;
   /* z-index: -2; */
-
+/* 
 }
 
- #Homepage {
+#Homepage {
   position: absolute;
   top: 900px;
   right: 215px;
@@ -22,5 +22,5 @@
 
 #app {
   /* position: relative; */
-  z-index: 2;
-}
+  /* z-index: 2;
+} */ 
